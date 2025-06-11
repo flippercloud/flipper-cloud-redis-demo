@@ -32,6 +32,9 @@ FLIPPER_CLOUD_TOKEN=<your api token here> bin/rails s
 Here is an example of forcing a sync to an environment that has demo_feature enabled:
 
 ```
+bin/rails c
+# or FLIPPER_CLOUD_TOKEN=<token> bin/rails c
+
 Loading development environment (Rails 8.0.2)
 flipper-cloud-redis-demo(dev)> Flipper::Adapters::Redis.new(Redis.new).get_all
 => {"demo_feature" => {boolean: "true", expression: nil, actors: #<Set: {}>, percentage_of_actors: nil, percentage_of_time: nil, groups: #<Set: {}>}}
