@@ -52,3 +52,6 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem "flipper", "~> 1.3"
+gem "flipper-redis", "~> 1.3"

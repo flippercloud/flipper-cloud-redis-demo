@@ -1,0 +1,23 @@
+<h1 class="display-1">Welcome!</h1>
+<p class="lead">
+  This is a minimal Rails app that you can browse and interact with to see how Flipper Cloud works with Redis as a local adapter.
+</p>
+
+<% if Flipper.enabled?(:demo_feature) %>
+  <div class="alert alert-success" role="alert">
+    <h2 class="alert-heading">Demo Feature</h2>
+    <p>This is a demo feature that is enabled.</p>
+  </div>
+<% else %>
+  <div class="alert alert-danger" role="alert">
+    <h2 class="alert-heading">Demo Feature</h2>
+    <p>This is a demo feature that is disabled.</p>
+  </div>
+<% end %>
+
+<dl>
+  <dt>Default Instance</dt>
+  <dd><%= Flipper.instance.class %></dd>
+  <dt>Local Adapter</dt>
+  <dd><%= Flipper.instance.cloud_configuration.local_adapter.class %></dd>
+</dl>
