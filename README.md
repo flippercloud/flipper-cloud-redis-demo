@@ -2,6 +2,8 @@
 
 This is a demonstration of using Flipper Cloud with Redis as a local adapter. This setup allows you to use Flipper Cloud's feature flag management capabilities while storing the feature flag data locally in Redis.
 
+The key bits to check out are [Gemfile](https://github.com/flippercloud/flipper-cloud-redis-demo/blob/main/Gemfile#L56-L57) and [config/initializers/flipper.rb](https://github.com/flippercloud/flipper-cloud-redis-demo/blob/main/config/initializers/flipper.rb#L44).
+
 ## Install
 
 Ruby 3.4.2 (`asdf install ruby 3.4.2` if you don't have it and use asdf).
