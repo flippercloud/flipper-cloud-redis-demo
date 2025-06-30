@@ -105,7 +105,7 @@ GEM
     erubi (1.13.1)
     et-orbi (1.2.11)
       tzinfo
-    flipper (1.3.4)
+    flipper (1.3.5)
       concurrent-ruby (< 2)
     flipper-redis (1.3.4)
       flipper (~> 1.3.4)
