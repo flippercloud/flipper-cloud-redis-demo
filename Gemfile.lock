@@ -105,10 +105,10 @@ GEM
     erubi (1.13.1)
     et-orbi (1.2.11)
       tzinfo
-    flipper (1.3.4)
+    flipper (1.3.6)
       concurrent-ruby (< 2)
-    flipper-redis (1.3.4)
-      flipper (~> 1.3.4)
+    flipper-redis (1.3.6)
+      flipper (~> 1.3.6)
       redis (>= 3.0, < 6)
     fugit (1.11.1)
       et-orbi (~> 1, >= 1.2.11)
@@ -232,9 +232,9 @@ GEM
     rdoc (6.14.0)
       erb
       psych (>= 4.0.0)
-    redis (5.4.0)
+    redis (5.4.1)
       redis-client (>= 0.22.0)
-    redis-client (0.24.0)
+    redis-client (0.25.1)
       connection_pool
     regexp_parser (2.10.0)
     reline (0.6.1)
